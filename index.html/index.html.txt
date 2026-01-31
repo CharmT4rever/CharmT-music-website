@@ -1,0 +1,145 @@
+# CharmT Music | Official Artist Website
+
+Welcome to the official website of **CharmT**, a versatile music artist specializing in Rap, Hip Hop, Afro, Trap, and Soul Fusion.  
+
+This site showcases:
+- Latest music releases
+- Merchandise previews
+- Event booking information
+- Performance analytics dashboard
+- Sponsorship opportunities
+
+## Built With
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
+
+## Screenshots
+Here’s a preview of the website:
+
+![Hero Section](images/hero-section.png)
+<!-- Add more images as you capture more sections -->
+<!-- Example:
+![Latest Releases](images/latest-releases.png)
+![Merchandise](images/merch.png)
+![Booking & Sponsorship](images/booking-sponsorship.png)
+-->
+
+## Live Demo
+*(Add your live website URL here once deployed, e.g., GitHub Pages, Netlify, or Vercel)*
+
+## How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/CharmTWebsite.git
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharmT Music | Official Artist Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased overflow-x-hidden">
+
+    <!-- Navigation -->
+    <charmt-navbar></charmt-navbar>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="relative z-10 text-center">
+            <h1 class="text-6xl font-bold mb-4">CharmT</h1>
+            <p class="text-xl text-slate-300 mb-8">Rap • Hip Hop • Trap</p>
+            <a href="#music" class="px-8 py-4 bg-primary-600 rounded-full font-semibold">Listen Now</a>
+        </div>
+    </section>
+
+    <!-- Latest Releases -->
+    <section id="music" class="py-20 bg-slate-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8">Latest Releases</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Track: Mi ni Pro -->
+                <div class="group bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+                    <img src="images/mi_ni_pro.jpg" alt="Mi ni Pro" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Mi ni Pro</h3>
+                        <p class="text-slate-400 text-sm mb-2">Single • 2026</p>
+                        <div class="flex justify-between text-sm text-slate-500">
+                            <span>4:12</span>
+                            <span>Plays: 10K</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track: My Story -->
+                <div class="group bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+                    <img src="images/my_story.jpg" alt="My Story" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">My Story</h3>
+                        <p class="text-slate-400 text-sm mb-2">Single • 2025</p>
+                        <div class="flex justify-between text-sm text-slate-500">
+                            <span>3:58</span>
+                            <span>Plays: 8K</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track: Bad Cop -->
+                <div class="group bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+                    <img src="images/bad_cop.jpg" alt="Bad Cop" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Bad Cop</h3>
+                        <p class="text-slate-400 text-sm mb-2">Single • 2023</p>
+                        <div class="flex justify-between text-sm text-slate-500">
+                            <span>5:34</span>
+                            <span>Plays: 15K</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track: Neon Dreams -->
+                <div class="group bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+                    <img src="images/neon_dreams.jpg" alt="Neon Dreams" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Neon Dreams</h3>
+                        <p class="text-slate-400 text-sm mb-2">EP • 2024</p>
+                        <div class="flex justify-between text-sm text-slate-500">
+                            <span>4:15</span>
+                            <span>Plays: 12K</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track: Urban Echoes -->
+                <div class="group bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+                    <img src="images/urban_echoes.jpg" alt="Urban Echoes" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Urban Echoes</h3>
+                        <p class="text-slate-400 text-sm mb-2">Album • 2023</p>
+                        <div class="flex justify-between text-sm text-slate-500">
+                            <span>3:28</span>
+                            <span>Plays: 20K</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <charmt-footer></charmt-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/player.js"></script>
+    <script src="components/analytics-card.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
